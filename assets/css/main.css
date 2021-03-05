@@ -430,7 +430,7 @@ body {
 				}
 
 				#header nav ul li.active a {
-					background-color: #E0E0E0;
+					background-color: #F0F0F0;
 					color: #000000;
 				}
 
@@ -442,6 +442,8 @@ body {
 
 			#header nav ul li a {
 				padding: 0 1.5em;
+				justify-content: center;
+				align: center;
 			}
 
 				#header nav ul li a .extra {
@@ -459,6 +461,8 @@ body {
 		
 		#header li {
 			width: 100px;
+			align-content: center;
+			justify-content: center;
 		}
 		
 	}
@@ -2356,7 +2360,7 @@ body {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #1ebdd1;
+				background-color: #339933;
 			}
 
 /* Form */
@@ -2944,6 +2948,8 @@ body {
 			ul.actions.fit.stacked {
 				width: 100%;
 			}
+			
+			
 
 		@media screen and (max-width: 480px) {
 
