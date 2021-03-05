@@ -454,6 +454,7 @@ body {
 		#header {
 			display: flex;
 			flex-wrap: wrap;
+			overflow: hidden;
 		}
 		
 		#header li {
