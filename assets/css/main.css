@@ -451,8 +451,14 @@ body {
 	}
 
 	@media screen and (max-width: 736px){
-		display: inline-block;
-		width: 100%;
+		#header {
+			display: flex;
+			flex-wrap: wrap;
+		}
+		
+		#header li {
+			width: 100px;
+		}
 		
 	}
 
