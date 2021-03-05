@@ -361,7 +361,7 @@ body {
 	top: 0;
 	left: 0;
 	width: 100%;
-	background-color: #F0F0F0;
+	background-color: #F0F0F0; !important;
 	color: #ffffff;
 	height: 3.25em;
 	line-height: 3.25em;
@@ -451,7 +451,8 @@ body {
 	}
 
 	@media screen and (max-width: 736px){
-		display: flex;
+		display: inline-block;
+		width: 100%;
 		
 	}
 
