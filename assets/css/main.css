@@ -329,7 +329,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #000000;
+		color: rgba(0, 0, 0, 1);
 	}
 
 	blockquote {
@@ -2206,7 +2206,7 @@ body {
 		}
 
 	.box {
-		border-color: rgba(0, 0, 0, 0.2);
+		border-color: rgba(0, 0, 0, .5);
 	}
 
 /* Button */
@@ -2792,6 +2792,8 @@ body {
 			.image.fit img {
 				width: 100%;
 			}
+			
+			
 
 		.image.main {
 			display: block;
@@ -2871,7 +2873,7 @@ body {
 		}
 
 	ul.alt li {
-		border-top-color: rgba(0, 0, 0, 0.2);
+		border-top-color: rgba(0, 0, 0, 0.0);
 	}
 
 /* Actions */
